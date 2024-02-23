@@ -10,12 +10,12 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: #D67AB1;
+    background: #d67ab1;
     padding: 10px;
 }
 
 .todo-app {
-    background: #FDF7FA;
+    background: #fdf7fa;
     margin: 100px auto 20px;
     padding: 60px 30px 60px;
     border-radius: 10px;
@@ -40,7 +40,7 @@
     justify-content: space-between;
     border-radius: 25px;
     padding-left: 20px;
-    background: #A8DCD9;
+    background: #a8dcd9;
     margin-bottom: 10px;
 }
 
@@ -57,8 +57,8 @@ button {
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #D67AB1;
-    color: #FDF7FA;
+    background: #d67ab1;
+    color: #fdf7fa;
     font-size: 14px;
     cursor: pointer;
     border-radius: 25px;
@@ -73,7 +73,7 @@ ul li {
 }
 
 ul li::before {
-    content: '';
+    content: "";
     position: absolute;
     height: 28px;
     width: 28px;
@@ -96,7 +96,7 @@ ul li.checked::before {
 
 #footer {
     padding: 10px 20px;
-    color: #60435F;
+    color: #60435f;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -104,10 +104,27 @@ ul li.checked::before {
 }
 
 #footer a {
-    color: #60435F;
+    color: #60435f;
     text-decoration: underline;
 }
 
 #footer a:visited {
-    color: #60435F;
+    color: #60435f;
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #d67ab1;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+ul li span:hover {
+    background: #a8dcd9;
 }
